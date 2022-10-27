@@ -9,7 +9,7 @@ from os import environ as env
 # 基础设置
 # -----------
 APP_NAME = "moetran"
-APP_VERSION = "0.5.1010"
+APP_VERSION = "0.5.1020"
 APP_SITE_NAME = env.get("APP_SITE_NAME", "漫画译注器协作版")
 APP_SITE_URL = env.get("APP_SITE_URL")
 SECRET_KEY = env["SECRET_KEY"] # 必填 - 密钥
